@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+:root {
+  color-scheme: light;
+  --background: 245 240 231;
+  --background-soft: 239 232 220;
+  --surface: 255 252 247;
+  --surface-strong: 252 248 242;
+  --sage: 143 157 134;
+  --sage-deep: 91 104 82;
+  --sage-wash: 220 228 211;
+  --accent: 176 138 101;
+  --text-primary: 47 50 42;
+  --text-muted: 98 103 86;
+  --line: 73 73 58;
+}
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  body {
+    @apply font-body text-textPrimary antialiased;
+    background:
+      radial-gradient(circle at top left, rgba(207, 218, 194, 0.75), transparent 34%),
+      radial-gradient(circle at 85% 8%, rgba(176, 138, 101, 0.18), transparent 20%),
+      linear-gradient(180deg, #f7f2ea 0%, #f4eee4 38%, #f0e8dc 100%);
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.32;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+    background-size: 22px 22px;
+    mix-blend-mode: soft-light;
+  }
+
+  img {
+    @apply max-w-full;
+  }
+
+  a {
+    @apply no-underline;
+  }
+
+  ::selection {
+    background: rgba(176, 138, 101, 0.22);
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply inline-flex items-center gap-3 text-[0.74rem] uppercase tracking-[0.24em] text-sageDeep;
+  }
+
+  .eyebrow::before {
+    content: '';
+    width: 2.5rem;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.55;
+  }
+
+  .hero-shell {
+    background:
+      linear-gradient(145deg, rgba(255, 251, 245, 0.88), rgba(241, 233, 222, 0.96)),
+      url('/media/hero-bg.jpg') center/cover no-repeat;
+  }
+
+  .article-rich {
+    @apply text-[1.02rem] leading-8 text-textMuted;
+  }
+
+  .article-rich h2,
+  .article-rich h3,
+  .article-rich h4 {
+    @apply mt-12 font-display leading-tight tracking-[-0.03em] text-textPrimary;
+  }
+
+  .article-rich h2 {
+    @apply text-[2rem];
+  }
+
+  .article-rich h3 {
+    @apply text-[1.6rem];
+  }
+
+  .article-rich p {
+    @apply mb-5;
+  }
+
+  .article-rich ul,
+  .article-rich ol {
+    @apply mb-6 space-y-3 pl-6;
+  }
+
+  .article-rich li {
+    @apply pl-1;
+  }
+
+  .article-rich a {
+    @apply text-sageDeep underline decoration-accent/60 underline-offset-4;
+  }
+
+  .article-rich blockquote {
+    @apply my-8 rounded-[1.5rem] border border-line/20 bg-surface/75 px-6 py-5 font-display text-[1.35rem] leading-8 text-textPrimary;
+  }
+
+  .article-rich img {
+    @apply my-8 rounded-[1.5rem] border border-line/20 shadow-panel;
+  }
+}
