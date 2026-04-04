@@ -51,7 +51,7 @@ export default async function BlogPostPage({
                 <p className="text-[0.74rem] uppercase tracking-[0.18em] text-background/80">
                   {post.category} · {formattedDate} · {post.readTime}
                 </p>
-                <h1 className="mt-4 max-w-[12ch] font-display text-[clamp(2.4rem,5vw,4.8rem)] leading-[0.95] tracking-[-0.05em]">
+                <h1 className="mt-4 max-w-[12ch] font-display text-[clamp(2.4rem,5vw,4.8rem)] leading-[0.95] tracking-[-0.05em] text-goldAccent">
                   {post.title}
                 </h1>
               </div>
@@ -73,7 +73,7 @@ export default async function BlogPostPage({
 
           {(post.source || (post.additionalSources && post.additionalSources.length > 0)) && (
             <div className="mt-12 rounded-[1.5rem] border border-line/60 bg-surface/80 p-6 shadow-panel">
-              <p className="text-[0.74rem] uppercase tracking-[0.18em] text-sageDeep">
+              <p className="text-[0.74rem] uppercase tracking-[0.18em] text-goldAccent">
                 Quellen
               </p>
               <div className="mt-4 flex flex-wrap gap-4 text-sm text-sageDeep">
