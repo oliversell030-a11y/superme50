@@ -42,7 +42,7 @@ export default function BlogPage() {
                 </div>
                 <div className="flex flex-col justify-end p-6 md:p-8">
                   <span className="eyebrow">{leadPost.category || 'Leitartikel'}</span>
-                  <h1 className="mt-4 font-display text-[clamp(2rem,4vw,3.6rem)] leading-[0.98] tracking-[-0.04em] text-textPrimary">
+                  <h1 className="mt-4 font-display text-[clamp(2rem,4vw,3.6rem)] leading-[0.98] tracking-[-0.04em] text-goldAccent">
                     {leadPost.title}
                   </h1>
                   <p className="mt-4 text-base leading-8 text-textMuted">{leadPost.description}</p>

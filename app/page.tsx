@@ -31,7 +31,7 @@ export default function HomePage() {
               <div className="flex flex-col justify-center">
                 <span className="eyebrow">Christiane Neubert | Impulse ab 50</span>
                 <h1 className="mt-5 max-w-[10ch] font-display text-[clamp(3rem,7vw,6rem)] leading-[0.94] tracking-[-0.06em] text-textPrimary">
-                  Mehr Kraft. Mehr Ruhe. Mehr du.
+                  Mehr Kraft. Mehr Ruhe. <span className="text-goldAccent">Mehr du.</span>
                 </h1>
                 <p className="mt-6 max-w-2xl text-base leading-8 text-textMuted md:text-[1.08rem]">
                   Natürliche, alltagstaugliche Impulse für Frauen ab 50. Ohne Hype. Ohne
@@ -125,7 +125,7 @@ export default function HomePage() {
               <p className="text-[0.74rem] uppercase tracking-[0.18em] opacity-80">
                 {homeThemes[0].eyebrow}
               </p>
-              <h2 className="mt-3 max-w-[12ch] font-display text-[clamp(2.1rem,4vw,3.5rem)] leading-[0.98] tracking-[-0.04em]">
+              <h2 className="mt-3 max-w-[12ch] font-display text-[clamp(2.1rem,4vw,3.5rem)] leading-[0.98] tracking-[-0.04em] text-goldAccent">
                 {homeThemes[0].title}
               </h2>
               <p className="mt-4 max-w-xl text-sm leading-7 opacity-85">
@@ -147,7 +147,7 @@ export default function HomePage() {
                   <p className="text-[0.74rem] uppercase tracking-[0.18em] opacity-80">
                     {theme.eyebrow}
                   </p>
-                  <h2 className="mt-3 font-display text-[2rem] leading-[1.02] tracking-[-0.03em]">
+                  <h2 className="mt-3 font-display text-[2rem] leading-[1.02] tracking-[-0.03em] text-goldAccent">
                     {theme.title}
                   </h2>
                   <p className="mt-3 max-w-xl text-sm leading-7 opacity-85">
@@ -168,7 +168,7 @@ export default function HomePage() {
                 <p className="text-[0.74rem] uppercase tracking-[0.18em] opacity-80">
                   {theme.eyebrow}
                 </p>
-                <h2 className="mt-3 font-display text-[2rem] leading-[1.02] tracking-[-0.03em]">
+                <h2 className="mt-3 font-display text-[2rem] leading-[1.02] tracking-[-0.03em] text-goldAccent">
                   {theme.title}
                 </h2>
                 <p className="mt-3 max-w-xl text-sm leading-7 opacity-85">

@@ -25,7 +25,9 @@ export default function TopicPageTemplate({ page }: TopicPageTemplateProps) {
               <div>
                 <span className="eyebrow">{page.eyebrow}</span>
                 <h1 className="mt-5 max-w-[12ch] font-display text-[clamp(2.8rem,6vw,5.6rem)] leading-[0.95] tracking-[-0.05em] text-textPrimary">
-                  {page.title}
+                  {page.titleGold && page.title.includes(page.titleGold)
+                    ? <>{page.title.replace(page.titleGold, '')}<span className="text-goldAccent">{page.titleGold}</span></>
+                    : page.title}
                 </h1>
                 <div className="mt-6 max-w-2xl space-y-4 text-base leading-8 text-textMuted md:text-[1.05rem]">
                   {page.intro.map((paragraph) => (

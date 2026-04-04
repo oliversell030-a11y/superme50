@@ -33,8 +33,8 @@ const config: Config = {
         panel: '1.5rem',
       },
       fontFamily: {
-        display: ['var(--font-display)', 'Georgia', 'serif'],
-        body: ['var(--font-body)', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        display: ['var(--font-display, Georgia)', 'Georgia', 'serif'],
+        body: ['var(--font-body, Helvetica Neue)', 'Helvetica Neue', 'Arial', 'sans-serif'],
       },
     },
   },

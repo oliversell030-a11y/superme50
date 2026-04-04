@@ -30,6 +30,7 @@ export type TopicPageData = {
   slug: TopicSlug;
   eyebrow: string;
   title: string;
+  titleGold?: string;
   intro: string[];
   accentLine: string;
   cards: TopicCard[];
@@ -60,6 +61,7 @@ export const topicPages: Record<TopicSlug, TopicPageData> = {
     slug: 'vitalitaet',
     eyebrow: 'Vitalität & Energie',
     title: 'Mehr Energie für deinen Alltag, ohne dich selbst zu überfordern.',
+    titleGold: 'ohne dich selbst zu überfordern.',
     intro: [
       'Vitalität fühlt sich selten spektakulär an. Oft beginnt sie dort, wo der Alltag wieder leichter wird: beim Frühstück, bei einer warmen Tasse, bei einem kleinen Ritual, das dich nicht zusätzlich stresst.',
       'Hier geht es nicht um Disziplin auf Anschlag, sondern um gute Entscheidungen, die dich nähren und dir auf Dauer mehr Stabilität geben.',
@@ -131,6 +133,7 @@ export const topicPages: Record<TopicSlug, TopicPageData> = {
     slug: 'schlaf',
     eyebrow: 'Schlaf & Entspannung',
     title: 'Besser schlafen, ruhiger werden und den Abend wieder als Landung erleben.',
+    titleGold: 'wieder als Landung erleben.',
     intro: [
       'Wenn der Körper müde ist, der Kopf aber weitermacht, fühlt sich jede Nacht wie eine kleine Prüfung an. Gerade ab 50 spielen oft mehrere Dinge zusammen: Hormone, Gewohnheiten, innere Unruhe und ein Nervensystem, das zu spät auf Pause schaltet.',
       'Diese Seite sammelt keine perfekten Lösungen, sondern einfache Hebel, die dem Abend mehr Weichheit geben.',
@@ -209,6 +212,7 @@ export const topicPages: Record<TopicSlug, TopicPageData> = {
     slug: 'nervensystem',
     eyebrow: 'Nervensystem & innere Ruhe',
     title: 'Wenn dein Körper nicht mehr richtig abschaltet, braucht er nicht Härte. Er braucht Sicherheit.',
+    titleGold: 'Er braucht Sicherheit.',
     intro: [
       'Viele Frauen beschreiben es ähnlich: Der Alltag ist eigentlich machbar, aber innerlich bleibt alles auf Spannung. Selbst in ruhigen Momenten ist da noch ein Rest von Alarm.',
       'Das ist kein persönliches Scheitern. Oft ist es einfach ein Nervensystem, das zu lange im Bereitschaftsmodus war.',
@@ -287,6 +291,7 @@ export const topicPages: Record<TopicSlug, TopicPageData> = {
     slug: 'beweglichkeit',
     eyebrow: 'Beweglichkeit & Gelenke',
     title: 'Beweglich bleiben heißt nicht, mehr zu leisten. Es heißt, leichter durch den Alltag zu kommen.',
+    titleGold: 'leichter durch den Alltag zu kommen.',
     intro: [
       'Beweglichkeit ist kein Fitnessziel für später, sondern eine Form von Freiheit im Jetzt: besser aufstehen, entspannter gehen, weniger Spannung in Schultern, Rücken und Hüfte.',
       'Gerade deshalb lohnt sich ein sanfter Ansatz, der nicht überfordert, sondern täglich ein bisschen unterstützt.',
@@ -358,6 +363,7 @@ export const topicPages: Record<TopicSlug, TopicPageData> = {
     slug: 'haut-haar',
     eyebrow: 'Haut, Haar & Nägel',
     title: 'Pflege darf sich nach Wohlgefühl anfühlen und nicht nach einem ständigen Anti-Aging-Kampf.',
+    titleGold: 'nach Wohlgefühl anfühlen',
     intro: [
       'Haut, Haar und Nägel reagieren oft nicht nur auf Produkte, sondern auf Schlaf, Rhythmus, Pflegekonsistenz und innere Ruhe. Genau deshalb lohnt sich ein Blick aufs Ganze.',
       'Hier geht es um natürliche Ausstrahlung, um Beständigkeit und um den ruhigen Luxus guter Gewohnheiten.',
