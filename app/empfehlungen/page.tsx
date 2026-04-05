@@ -19,11 +19,11 @@ function SolisCard({ product }: { product: typeof solisProducts[number] }) {
           sizes="(max-width: 768px) 50vw, 25vw"
         />
       </div>
-      <div className="p-6">
+      <div className="p-4 md:p-6">
         <h3 className="font-display text-[1.2rem] leading-[1.08] tracking-[-0.02em] text-goldAccent">
           {product.title}
         </h3>
-        <p className="mt-3 text-sm leading-7 text-textMuted">{product.description}</p>
+        <p className="mt-3 hidden text-sm leading-7 text-textMuted md:block">{product.description}</p>
       </div>
     </Link>
   );
@@ -62,7 +62,7 @@ export default function EmpfehlungenPage() {
             <p className="mx-auto mt-2 max-w-md text-center text-sm leading-7 text-textMuted">
               Reine Pflanzenkraft, ethisch angebaut, ohne künstliche Zusätze.
             </p>
-            <div className="mx-auto mt-10 max-w-3xl overflow-hidden rounded-[2rem] border border-line/60 shadow-panel">
+            <div className="mx-auto mt-10 max-w-2xl overflow-hidden rounded-[1.2rem] border border-line/40 shadow-panel">
               <video
                 controls
                 preload="metadata"
