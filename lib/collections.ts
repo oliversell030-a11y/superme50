@@ -175,7 +175,7 @@ export const solisProducts = [
   {
     slug: 'green-medley',
     title: 'Solis Green Medley',
-    images: ['/images/shop/solis-green-medley-pulver.jpg', '/images/shop/solis-green-medley.jpg', '/images/shop/solis-green-medley-drink.jpg'],
+    images: ['/images/shop/solis-green-medley.jpg', '/images/shop/solis-green-medley-pulver.jpg', '/images/shop/solis-green-medley-drink.jpg'],
     href: 'https://ww1.lifeplus.com/de/de/product-details/5369/solis-green-medley',
     description: '27 nährstoffreiche Zutaten aus grünem Blattgemüse, Adaptogenen und Pflanzenextrakten. Bio, vegan, glutenfrei.',
     content: `Green Medley bringt 27 sorgfältig ausgewählte Zutaten in ein einziges Pulver. Chlorella, Spirulina und Moringa liefern die grüne Basis. Dazu kommen Adaptogene wie Maca und Rosenwurz, die den Körper bei Stress unterstützen, ohne ihn aufzuputschen.
@@ -195,7 +195,7 @@ Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslung
   {
     slug: 'golden-milk',
     title: 'Solis Golden Milk',
-    images: ['/images/shop/solis-golden-milk-pulver.jpg', '/images/shop/solis-golden-milk.jpg', '/images/shop/solis-golden-milk-drink.jpg', '/images/shop/solis-golden-milk-glas.jpg'],
+    images: ['/images/shop/solis-golden-milk.jpg', '/images/shop/solis-golden-milk-pulver.jpg', '/images/shop/solis-golden-milk-drink.jpg', '/images/shop/solis-golden-milk-glas.jpg'],
     href: 'https://ww1.lifeplus.com/de/de/product-details/5379/solis-golden-milk',
     description: 'Ayurvedisch inspiriert: Kurkuma, Ashwagandha, Shiitake und wärmende Gewürze in Kokosmilch. Vegan, glutenfrei.',
     content: `Golden Milk ist von der ayurvedischen Tradition inspiriert: Kurkuma, Ashwagandha, Shiitake und wärmende Gewürze wie Zimt, Ingwer und Kardamom in einer Basis aus Kokosmilchpulver.
@@ -217,7 +217,7 @@ Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslung
   {
     slug: 'cacao-boost',
     title: 'Solis Cacao Boost',
-    images: ['/images/shop/solis-cacao-boost-pulver.jpg', '/images/shop/solis-cacao-boost.jpg', '/images/shop/solis-cacao-boost-tasse.jpg'],
+    images: ['/images/shop/solis-cacao-boost.jpg', '/images/shop/solis-cacao-boost-pulver.jpg', '/images/shop/solis-cacao-boost-tasse.jpg'],
     href: 'https://ww1.lifeplus.com/de/de/product-details/5371/solis-cacao-boost',
     description: 'Bio-Rohkakao mit Maca, Reishi und Chaga. Schokoladig, nahrhaft, ohne Zucker. Bio, vegan, glutenfrei.',
     content: `Cacao Boost kombiniert ecuadorianischen Bio-Rohkakao mit Maca, Reishi-Pilz, Chaga und Zimt. Das Ergebnis schmeckt schokoladig und vollmundig, ganz ohne zugesetzten Zucker.
@@ -237,7 +237,7 @@ Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslung
   {
     slug: 'purple-flash',
     title: 'Solis Purple Flash',
-    images: ['/images/shop/solis-purple-flash-pulver.jpg', '/images/shop/solis-purple-flash.jpg', '/images/shop/solis-purple-flash-drink.jpg'],
+    images: ['/images/shop/solis-purple-flash.jpg', '/images/shop/solis-purple-flash-pulver.jpg', '/images/shop/solis-purple-flash-drink.jpg'],
     href: 'https://ww1.lifeplus.com/de/de/product-details/5370/solis-purple-flash',
     description: 'Geballte Beerenkraft: Aronia, Açaí, Heidelbeere, Maqui, Granatapfel und mehr. Bio, vegan, glutenfrei.',
     content: `Purple Flash packt elf der nährstoffreichsten Beeren und Früchte in einen Teelöffel: Aronia, Açaí, Heidelbeere, Maqui, Granatapfel, Brombeere, schwarze Johannisbeere, Holunder, Baobab und Traubensaft. Dazu kommt Löwenmähne, ein Vitalpilz, der für seine unterstützende Wirkung auf die geistige Klarheit bekannt ist.

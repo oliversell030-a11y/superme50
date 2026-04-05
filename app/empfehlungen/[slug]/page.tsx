@@ -18,6 +18,13 @@ export default function SolisProductPage({
   const [detailsOpen, setDetailsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const heroImage = product.images[product.images.length - 1] || product.images[0];
+  const detailBlocks = product.details.split('\n\n');
+  const articleBlock = detailBlocks[0] ?? '';
+  const nutrientBlock = detailBlocks[1] ?? '';
+  const [nutrientHeading, ...nutrientLines] = nutrientBlock.split('\n');
+  const nutrientItems = nutrientLines.join(' ').split(', ').filter(Boolean);
+  const usageBlock = detailBlocks[2] ?? '';
+  const noteBlock = detailBlocks[3] ?? '';
 
   return (
     <>
@@ -122,8 +129,28 @@ export default function SolisProductPage({
               />
             </button>
             {detailsOpen && (
-              <div className="mt-1 whitespace-pre-line rounded-b-[1.5rem] border border-t-0 border-goldAccent/20 bg-surface/60 p-5 text-sm leading-7 text-textMuted">
-                {product.details}
+              <div className="mt-1 rounded-b-[1.5rem] border border-t-0 border-goldAccent/20 bg-surface/60 p-5">
+                <p className="text-sm font-medium text-textPrimary">
+                  {articleBlock}
+                </p>
+                <div className="mt-4">
+                  <p className="text-sm font-medium text-textPrimary">
+                    {nutrientHeading}
+                  </p>
+                  <ul className="mt-3 list-disc pl-5">
+                    {nutrientItems.map((item) => (
+                      <li key={item} className="text-sm leading-7 text-textMuted">
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <p className="mt-4 text-sm leading-7 text-textMuted italic">
+                  {usageBlock}
+                </p>
+                <p className="mt-4 text-sm leading-7 text-textMuted italic">
+                  {noteBlock}
+                </p>
               </div>
             )}
           </div>
