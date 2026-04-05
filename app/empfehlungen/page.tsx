@@ -65,10 +65,11 @@ export default function EmpfehlungenPage() {
             <div className="mx-auto mt-10 max-w-2xl overflow-hidden rounded-[1.2rem] border border-line/40 shadow-panel">
               <video
                 controls
-                preload="auto"
+                preload="metadata"
                 className="w-full"
+                poster="/images/shop/solis-poster-108.jpg"
               >
-                <source src="/media/solis-brand.mp4#t=0.001" type="video/mp4" />
+                <source src="/media/solis-brand.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
