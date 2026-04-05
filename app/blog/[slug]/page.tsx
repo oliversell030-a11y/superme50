@@ -37,7 +37,7 @@ export default async function BlogPostPage({
       <section className="pt-8 md:pt-10">
         <div className="mx-auto w-[min(1120px,calc(100%-24px))] md:w-[min(1120px,calc(100%-40px))]">
           <div className="overflow-hidden rounded-[2.2rem] border border-line/60 bg-surfaceStrong/90 shadow-float">
-            <div className="relative min-h-[300px] md:min-h-[420px]">
+            <div className="relative min-h-[400px] md:min-h-[520px]">
               <Image
                 src={post.image || '/media/hero-bg.jpg'}
                 alt={post.title}
@@ -51,7 +51,7 @@ export default async function BlogPostPage({
                 <p className="text-[0.74rem] uppercase tracking-[0.18em] text-background/80">
                   {post.category} · {formattedDate} · {post.readTime}
                 </p>
-                <h1 className="mt-4 max-w-[12ch] font-display text-[clamp(2.4rem,5vw,4.8rem)] leading-[0.95] tracking-[-0.05em] text-goldAccent">
+                <h1 className="mt-4 max-w-[18ch] font-display text-[clamp(2rem,4vw,3.8rem)] leading-[1] tracking-[-0.04em] text-goldAccent">
                   {post.title}
                 </h1>
               </div>
