@@ -1,19 +1,13 @@
-'use client';
-
-import { useState } from 'react';
 import Image from 'next/image';
-import { ArrowRight, ChevronDown } from 'lucide-react';
+import Link from 'next/link';
+import { ArrowRight } from 'lucide-react';
 import SectionIntro from '@/components/ui/section-intro';
 import { recommendationCategories, solisProducts } from '@/lib/collections';
 
 function SolisCard({ product }: { product: typeof solisProducts[number] }) {
-  const [open, setOpen] = useState(false);
-
   return (
-    <a
-      href={product.href}
-      target="_blank"
-      rel="noopener noreferrer"
+    <Link
+      href={`/empfehlungen/${product.slug}`}
       className="block overflow-hidden rounded-[1.8rem] border border-line/60 bg-surface/80 shadow-panel transition-transform hover:-translate-y-1"
     >
       <div className="relative aspect-[4/3]">
@@ -30,23 +24,8 @@ function SolisCard({ product }: { product: typeof solisProducts[number] }) {
           {product.title}
         </h3>
         <p className="mt-3 text-sm leading-7 text-textMuted">{product.description}</p>
-        <div className="mt-5 flex flex-wrap gap-3">
-          <button
-            type="button"
-            onClick={(e) => { e.preventDefault(); setOpen(!open); }}
-            className="inline-flex items-center gap-1 text-[0.76rem] uppercase tracking-[0.16em] text-textMuted"
-          >
-            Produktinfo
-            <ChevronDown className={`h-4 w-4 transition-transform ${open ? 'rotate-180' : ''}`} strokeWidth={1.5} />
-          </button>
-        </div>
-        {open && (
-          <div className="mt-4 whitespace-pre-line rounded-[1rem] border border-line/40 bg-backgroundSoft/60 p-4 text-xs leading-6 text-textMuted">
-            {product.details}
-          </div>
-        )}
       </div>
-    </a>
+    </Link>
   );
 }
 

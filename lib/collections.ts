@@ -178,6 +178,11 @@ export const solisProducts = [
     image: '/images/shop/solis-green-medley.jpg',
     href: 'https://ww1.lifeplus.com/de/de/product-details/5369/solis-green-medley',
     description: '27 nährstoffreiche Zutaten aus grünem Blattgemüse, Adaptogenen und Pflanzenextrakten. Bio, vegan, glutenfrei.',
+    content: `Green Medley bringt 27 sorgfältig ausgewählte Zutaten in ein einziges Pulver. Chlorella, Spirulina und Moringa liefern die grüne Basis. Dazu kommen Adaptogene wie Maca und Rosenwurz, die den Körper bei Stress unterstützen, ohne ihn aufzuputschen.
+
+Das Pulver schmeckt frisch und leicht fruchtig, weil gefriergetrocknete Himbeeren und Ananas mit drin sind. Ein gestrichener Messlöffel in Wasser oder Saft reicht. Wer grüne Superfoods noch nicht kennt, fängt am besten mit einer halben Portion an und steigert langsam.
+
+Alle Zutaten stammen aus biologischem Anbau. Kein Zucker, keine künstlichen Süßstoffe, nur ein Hauch Stevia. Vegan und glutenfrei.`,
     details: `Art.-Nr. 5369 / 171 g — 30 Portionen
 
 Durchschnittsgehalt pro Portion (5,7 g):
@@ -193,6 +198,13 @@ Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslung
     image: '/images/shop/solis-golden-milk.jpg',
     href: 'https://ww1.lifeplus.com/de/de/product-details/5379/solis-golden-milk',
     description: 'Ayurvedisch inspiriert: Kurkuma, Ashwagandha, Shiitake und wärmende Gewürze in Kokosmilch. Vegan, glutenfrei.',
+    content: `Golden Milk ist von der ayurvedischen Tradition inspiriert: Kurkuma, Ashwagandha, Shiitake und wärmende Gewürze wie Zimt, Ingwer und Kardamom in einer Basis aus Kokosmilchpulver.
+
+Das Ergebnis ist ein Getränk, das beruhigt, wärmt und den Abend weicher macht. Einen Messlöffel in warme Milch oder eine pflanzliche Alternative einrühren. Wer mag, gibt einen Löffel Honig dazu.
+
+Golden Milk lässt sich auch in Smoothies, Joghurt oder sogar Currys mischen. Ashwagandha und Glycin unterstützen Entspannung und erholsamen Schlaf. Das Pulver enthält Kurkuma und kann Kleidung verfärben.
+
+Vegan und glutenfrei. Kein Bio-Siegel, weil die enthaltene Aminosäure Glycin eine Bio-Zertifizierung ausschließt.`,
     details: `Art.-Nr. 5379 / 182 g — 30 Portionen
 
 Durchschnittsgehalt pro Portion (6,0 g):
@@ -208,6 +220,11 @@ Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslung
     image: '/images/shop/solis-cacao-boost.jpg',
     href: 'https://ww1.lifeplus.com/de/de/product-details/5371/solis-cacao-boost',
     description: 'Bio-Rohkakao mit Maca, Reishi und Chaga. Schokoladig, nahrhaft, ohne Zucker. Bio, vegan, glutenfrei.',
+    content: `Cacao Boost kombiniert ecuadorianischen Bio-Rohkakao mit Maca, Reishi-Pilz, Chaga und Zimt. Das Ergebnis schmeckt schokoladig und vollmundig, ganz ohne zugesetzten Zucker.
+
+Wer abends Lust auf Schokolade hat, kann stattdessen einen Messlöffel in warme Milch rühren. Reishi und Chaga sind Vitalpilze, die in der Naturheilkunde seit Jahrhunderten geschätzt werden. Maca bringt milde Energie ohne Koffein.
+
+Das Pulver passt auch in Smoothies, Porridge oder Joghurt. Alle Zutaten aus biologischem Anbau. Vegan und glutenfrei.`,
     details: `Art.-Nr. 5371 / 210 g — 30 Portionen
 
 Durchschnittsgehalt pro Portion (7,0 g):
@@ -223,6 +240,11 @@ Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslung
     image: '/images/shop/solis-purple-flash.jpg',
     href: 'https://ww1.lifeplus.com/de/de/product-details/5370/solis-purple-flash',
     description: 'Geballte Beerenkraft: Aronia, Açaí, Heidelbeere, Maqui, Granatapfel und mehr. Bio, vegan, glutenfrei.',
+    content: `Purple Flash packt elf der nährstoffreichsten Beeren und Früchte in einen Teelöffel: Aronia, Açaí, Heidelbeere, Maqui, Granatapfel, Brombeere, schwarze Johannisbeere, Holunder, Baobab und Traubensaft. Dazu kommt Löwenmähne, ein Vitalpilz, der für seine unterstützende Wirkung auf die geistige Klarheit bekannt ist.
+
+Der Geschmack ist beerig und natürlich, ohne Süßstoffe oder künstliche Aromen. Einfach in Wasser, einen Smoothie oder Joghurt rühren.
+
+Beeren stehen bei Superfrüchten ganz oben, weil ihre intensiven Farben auf einen hohen Gehalt an Antioxidantien hinweisen. Purple Flash macht es leicht, diese Vielfalt täglich mitzunehmen. Alle Zutaten aus biologischem Anbau. Vegan und glutenfrei.`,
     details: `Art.-Nr. 5370 / 192 g — 30 Portionen
 
 Durchschnittsgehalt pro Portion (6,4 g):
